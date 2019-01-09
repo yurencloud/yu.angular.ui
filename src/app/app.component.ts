@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'yu-angular-ui';
+  active = 'radio';
+  setActive(componentName: string) {
+    this.active = componentName;
+  }
 }

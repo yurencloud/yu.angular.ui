@@ -1,1 +1,37 @@
-<button yu-button yuType="primary" yuPlain="true" (click)="testClick()">button</button>
+<div>
+  <div>
+    <h3 class="web-main-title">yu.angular.ui 示例</h3>
+    <div style="display: flex">
+      <ul class="web-index">
+        <li><a (click)="setActive('button')">button</a></li>
+        <li><a (click)="setActive('radio')">radio</a></li>
+        <li><a>checkbox</a></li>
+        <li><a>input</a></li>
+        <li><a>counter</a></li>
+        <li><a>option</a></li>
+        <li><a>select</a></li>
+        <li><a>cascader-option</a></li>
+        <li><a>cascader</a></li>
+        <li><a>switch</a></li>
+        <li><a>slider</a></li>
+        <li><a>date-picker-option</a></li>
+        <li><a>date-picker</a></li>
+        <li><a>file-list</a></li>
+        <li><a>rate</a></li>
+        <li><a>field</a></li>
+        <li><a>loading</a></li>
+        <li><a>alert</a></li>
+        <li><a>steps</a></li>
+        <li><a>notification</a></li>
+        <li><a>tag</a></li>
+        <li><a>progress</a></li>
+        <li><a>badge</a></li>
+      </ul>
+      <div style="display: inline-block">
+        <yu-button-example *ngIf="active==='button'"></yu-button-example>
+        <yu-radio-example *ngIf="active==='radio'"></yu-radio-example>
+      </div>
+    </div>
+  </div>
+
+</div>
